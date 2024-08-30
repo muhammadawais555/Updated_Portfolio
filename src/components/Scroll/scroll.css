@@ -1,0 +1,51 @@
+/* .scroll__down {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 0;
+  width: 100%;
+}
+.home__scroll-name {
+  font-size: smaller;
+}
+.mouse {
+  border: 2px solid #454360;
+  display: block;
+  height: 2rem;
+  width: 1.65rem;
+  margin: auto;
+  margin-top: 0.75rem;
+  border-radius: 1rem;
+  position: relative;
+}
+@keyframes ani-mouse {
+  0% {
+    top: 29%;
+  }
+  15% {
+    top: 50%;
+  }
+  50% {
+    top: 50%;
+  }
+  100% {
+    top: 29%;
+  }
+}
+.wheel {
+  background-color: rgb(4, 245, 245);
+  border-radius: 100%;
+  width: 0.25rem;
+  height: 0.25rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: ani-mouse 2s linear infinite;
+}
+
+/* @media (max-width: 600px) {
+  .scroll__down {
+    margin: 0;
+    padding: 0;
+  }
+} */
